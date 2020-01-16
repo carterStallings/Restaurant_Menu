@@ -28,4 +28,13 @@ public class Menu {
             }
         }
     }
+
+    public List<MenuItem> getMenu() {
+        return menu;
+    }
+
+    public LocalDateTime getLastUpdated() {
+        return lastUpdated;
+    }
+
 }
